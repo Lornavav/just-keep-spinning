@@ -24,8 +24,49 @@
         </nav>
     </header>
 
+    <!--free trail sign up form-->
     <section>
-        Book Free Trial Form
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>SIGN UP FOR YOUR FREE TRIAL <i class="fa-solid fa-person-biking"></i></h2>
+
+            <!--Full name and email form input-->
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required>
+            <br>
+            
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required>
+            <br>
+
+            <!--Select a day label & checkboxes-->
+            <label>Select a day that suits you best</label>
+            <br>
+
+            <input type="checkbox" id="day1" value="Monday" required>
+            <label for="day1">Monday</label>
+
+            <input type="checkbox" id="day2" value="Wednesday">
+            <label for="day2">Wednesday</label>
+
+            <input type="checkbox" id="day3" value="Friday">
+            <label for="day">Friday</label><br>
+
+            <!--Select a time label & checkboxes-->
+            <label>Select a time that suits you best</label><br>
+            
+
+            <input type="checkbox" id="time1" value="07:00" required>
+            <label for="time1">7:00</label>
+
+            <input type="checkbox" id="time2" value="9:30">
+            <label for="time2">9:30</label>
+
+            <input type="checkbox" id="time3" value="18:00">
+            <label for="time3">18:00</label><br>
+
+            <!--submit button-->
+            <input type="submit" value="Sign me up!">     
+        </form>
     </section>
     <section>
         Contact Us
