@@ -102,6 +102,9 @@ As a user:
 
 See inital wireframe which was created using [Excalidraw](https://excalidraw.com/) 
 
+![](assets/images/wireframes.png)
+
+
 
 
 
