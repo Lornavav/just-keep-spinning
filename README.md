@@ -102,15 +102,15 @@ As a user:
 
 See inital wireframe which was created using [Excalidraw](https://excalidraw.com/) 
 
-![](assets/images/wireframes.png)
+![](documentation/images/inital_wireframes.png)
 
 See updaed version for page 2 after i decided it was best to include a timetable of classes rather than the FAQ section.
 
-![](assets/images/update-page2.png)
+![](documentation/images/timetable_wireframe.png)
 
 See updated version for page 3 after I decided to include a Where to find us section
 
-![](assets/images/update-page3.png)
+![](documentation/images/find_us_wireframe.png)
 
 
 
