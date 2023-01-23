@@ -14,9 +14,9 @@ body {
 
 /* logo styling */
 
-#logo {
+h1 {
     font-family: Merriweather, sans-serif;
-    font-size: 300%;
+    font-size: 250%;
     color: #6861F2;
     text-transform: uppercase;
     text-decoration: none;
