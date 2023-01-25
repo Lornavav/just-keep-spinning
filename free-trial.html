@@ -25,47 +25,39 @@
     </header>
 
     <!--free trail sign up form-->
-    <section>
+    <section class="signup-form">
         <form method="POST" action="https://formdump.codeinstitute.net/">
             <h2>SIGN UP FOR YOUR FREE TRIAL <i class="fa-solid fa-person-biking"></i></h2>
 
             <!--Full name and email form input-->
             <label for="fullname">Full Name:</label><br>
-            <input type="text" id="fullname" name="fullname" required>
+            <input type="text" id="fullname" name="fullname" class="text-input" required>
             <br>
             
             <label for="email">Email Address:</label><br>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" class="text-input" required>
             <br>
 
-            <!--Select a day label & checkboxes-->
-            <label>Select a day that suits you best</label>
-            <br>
-
-            <input type="radio" id="day1" value="Monday" required>
-            <label for="day1">Monday</label>
-
-            <input type="radio" id="day2" value="Wednesday">
-            <label for="day2">Wednesday</label>
-
-            <input type="radio" id="day3" value="Friday">
-            <label for="day">Friday</label><br>
-
-            <!--Select a time label & checkboxes-->
-            <label>Select a time that suits you best</label><br>
+            <!--Select a day & time labels & radio buttons-->
             
+            <label for="days">Select a day that suits you best:</label>
+            <select id="days" name="days">
+            <option value="monday">Monday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="friday">Friday</option>
+            </select>
 
-            <input type="radio" id="time1" value="07:00" required>
-            <label for="time1">7:00</label>
+            <br>
 
-            <input type="radio" id="time2" value="9:30">
-            <label for="time2">9:30</label>
-
-            <input type="radio" id="time3" value="18:00">
-            <label for="time3">18:00</label><br>
+            <label for="times">Select a time that suits you best:</label>
+            <select id="times" name="times">
+            <option value="07:30">07:30</option>
+            <option value="09:00">09:00</option>
+            <option value="18:00">18:00</option>
+            </select>
 
             <!--submit button-->
-            <input type="submit" value="Sign me up!">     
+            <input type="submit" value="Sign me up!" class="signup-button">     
         </form>
     </section>
     <br>
