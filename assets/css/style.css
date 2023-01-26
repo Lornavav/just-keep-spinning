@@ -112,15 +112,17 @@ footer {
     height: 100px;
 }
 
-footer > span {
-    color: #d7f9d3;
-    font-size: 120%;
-    font-weight: lighter;
-}
-
 footer > p {
     color: #d7f9d3;
     font-size: 120%;
-    font-weight: lighter; 
+    font-weight: lighter;
+    float: left;
+    padding: 40px 0 75px 50px;
 }
 
+footer > a {
+    color: #d7f9d3;
+    font-size: 200%;
+    float: right;
+    padding: 40px 50px 75px 0px;
+}
