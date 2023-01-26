@@ -73,8 +73,9 @@ tr:nth-child(even) {
 
 caption {
     color: #192435;
-    font-weight: bolder;
-    font-size: 40px;
+    font-size: 35px;
+    font-family: Merriweather, sans-serif;
+    letter-spacing: 2px;
 }
 
 /* free trial sign up form. Most of the code is taken from the love running sign up form challenge 2 */
