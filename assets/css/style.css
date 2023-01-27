@@ -39,10 +39,6 @@ nav a:hover {
     color: #192435
 }
   
-ul {
-    list-style: none;
-}
-
 /* membership options inspiration and guidelines taken from love running 
     meetup times foreground module */
 
@@ -190,13 +186,12 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #192435;
-    color: white;
+    color: #d7f9d3;
     text-align: center;
     height: 80px;
 }
 
 footer > p {
-    color: #d7f9d3;
     font-size: 120%;
     font-weight: lighter;
     float: left;
@@ -204,8 +199,21 @@ footer > p {
 }
 
 footer > a {
-    color: #d7f9d3;
     font-size: 200%;
     float: right;
-    padding: 30px 50px 80px 0px;
+    padding: 30px 50px 80px 0;
+    color: #d7f9d3;
+}
+
+.contact-us > li {
+    display: inline;
+    font-size: 120%;
+}
+
+.contact-us i {
+    font-size: 60%;
+}
+
+.contact-us {
+    padding: 30px 0 80px 0;
 }
