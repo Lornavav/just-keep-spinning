@@ -43,10 +43,47 @@ ul {
     list-style: none;
 }
 
+/* membership options inspiration and guidelines taken from love running 
+    meetup times foreground module */
+
+#membership {
+    background-image: url(/assets/Images/membership_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#membership div {
+    background-color: rgba(0, 0, 0, .6);
+    width: 33.3%;
+    height: 300px;
+    float: left;
+    border: 2px solid white;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.8;
+}
+
+#membership h3 {
+    color: #fafafa;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+#membership h2 {
+    color: #d7f9d3;
+    font-family: Merriweather, sans-serif;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 30px;
+    text-transform: uppercase;
+}
 /* timetable styling */
 
 table {
-    border: #192435 1px solid;
+    border: #fafafa 5px solid;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -56,11 +93,13 @@ table {
 th {
     background-color: #c4c2ff;
     height: 35px;
+    font-weight: bold;
 }
 
 td {
     text-align: center;
-    font-weight: bolder;
+    font-weight: bold;
+    color: #fafafa;
 }
 
 tr {
@@ -68,7 +107,7 @@ tr {
 }
 
 tr:nth-child(even) {
-    background-color: #d7f9d3;
+    background-color: #192435;
 }
 
 caption {
@@ -76,6 +115,7 @@ caption {
     font-size: 35px;
     font-family: Merriweather, sans-serif;
     letter-spacing: 2px;
+    font-weight: bold;
 }
 
 /* free trial sign up form. Most of the code is taken from the love running sign up form challenge 2 */
