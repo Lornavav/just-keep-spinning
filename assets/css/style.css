@@ -12,31 +12,47 @@ body {
     color: #192435;
 }
 
-/* logo styling */
+/* header styling icluding logo and nav bar */
 
-h1 {
+#logo, #menu {
     font-family: Merriweather, sans-serif;
-    font-size: 250%;
     color: #6861F2;
-    text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
-    float: left;
+    line-height: 60px;
 }
 
-/* nav styling */
+#logo {
+    font-size: 240%;
+    text-transform: uppercase;
+    float: left;
+    margin-left: 20px;
+    font-weight: lighter;
+}
 
 #menu {
-    float: right;
     font-size: 150%;
-    color: #6861F2;
-    letter-spacing: 1px;
-    margin-right: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    word-spacing: 5px;  
 }
 
-nav a:hover {
-    color: #192435
+#menu li {
+    float: right;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #6861F2;
+    text-transform: uppercase;
+}
+#menu a:hover {
+    color: rgb(104,97,242, 0.8)
+}
+
+.active {
+    border-bottom: 2px solid #192435;
 }
   
 /* membership options inspiration and guidelines taken from love running 
