@@ -72,6 +72,7 @@ body {
     box-sizing: border-box;
     text-align: center;
     line-height: 1.8; 
+    padding: 0;
 }
 
 #intro-text p {
@@ -83,10 +84,6 @@ body {
     text-decoration-color: #192435;
 }
 
-#intro-text i {
-    font-size: small;
-    text-transform: lowercase;
-}
 
 /* membership options inspiration and guidelines taken from love running 
     meetup times foreground module */
@@ -137,7 +134,7 @@ table {
 
 th {
     background-color: #c4c2ff;
-    height: 35px;
+    height: 36px;
     font-weight: bold;
 }
 
@@ -157,7 +154,7 @@ tr:nth-child(even) {
 
 caption {
     color: #192435;
-    font-size: 30px;
+    font-size: 188%;
     font-family: Merriweather, sans-serif;
     letter-spacing: 2px;
     font-weight: bold;
@@ -240,7 +237,7 @@ footer {
     width: 100%;
     background-color: #192435;
     color: #d7f9d3;
-    height: 80px;
+    height: 100px;
 }
 
 footer > p {
@@ -248,14 +245,14 @@ footer > p {
     font-weight: lighter;
     float: left;
     clear: both;
-    padding: 30px 0 80px 50px;
+    padding: 10px 0 80px 50px;
     line-height: 1.5;
 }
 
 footer > a {
     font-size: 200%;
     float: right;
-    padding: 50px 50px 80px 0;
+    padding: 40px 50px 80px 0;
     color: #d7f9d3;
 }
 
@@ -266,7 +263,6 @@ footer > a {
 @media screen and (max-width: 1150px) {
     
     #intro-text div {
-        width: 25%;
         height: 500px;
         padding: 0;
     }
@@ -280,11 +276,40 @@ footer > a {
         font-size: 100%;
     }
 
-    footer {
-        height: 125px;
+    table {
+        margin-top: 0;
+    }
+}
+
+/* for screens size from 983px wide and down */
+@media screen and (max-width: 983px) {
+
+    #membership > div {
+        width: 100%;
+        clear: both;        
+        height: 150px;
+        padding: 0;
     }
 
-    
-    
+    #membership h2, #membership h3 {
+        font-size: 100%;
+    }
 }
+
+/* for screens size from 832px in height and down */
+@media screen and (max-height:832px) {
+        #intro-text div {
+            height: 400px;
+        }
+
+        table {
+            margin-top: 0;
+        }
+
+        caption {
+            font-size: 120%;
+        }
+}
+    
+
 
