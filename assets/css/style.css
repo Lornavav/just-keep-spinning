@@ -61,7 +61,7 @@ body {
     width: 100%;
 }
 
-/* intro text section */
+/* introduction text */
 
 #intro-text div {
     background-color: #d7f9d3;
@@ -83,9 +83,6 @@ body {
     text-decoration-color: #192435;
 }
 
-
-
-  
 /* membership options inspiration and guidelines taken from love running 
     meetup times foreground module */
 
@@ -161,11 +158,12 @@ caption {
     font-weight: bold;
 }
 
-/* free trial sign up form. Most of the code is taken from the love running sign up form challenge 2 */
+/* free trial sign up form. Most of the stylying is taken from the love running sign up form challenge 2 */
 
 .form-section {
     clear: left;
     background: url(/assets/Images/free-trial_background.jpg);
+    background-color: #c4c2ff;
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -192,12 +190,13 @@ caption {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 2px solid #fafafa;
     border-radius: 2px;
+    padding-right: 10px;
 }
 
 .text-input:hover {
-    border-color: #d7f9d3;
+    border-color: #c4c2ff;
 }
 
 select {
@@ -206,14 +205,16 @@ select {
     border: none;
     border-radius: 2px;
     background-color: #c4c2ff;
+    margin: 5px 0 10px 0;
   }
 
 .signup-button {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    padding: 10px 20px 10px 20px;
     text-align: center;
-    font-size: 100%;
+    font-size: 125%;
+    font-weight: bold;
     background-color: #c4c2ff;
     color: #192435;
     display: block;
