@@ -54,6 +54,12 @@ body {
 .active {
     border-bottom: 2px solid #192435;
 }
+
+/* hero image */
+
+#hero-image {
+    width: 100%;
+}
   
 /* membership options inspiration and guidelines taken from love running 
     meetup times foreground module */
