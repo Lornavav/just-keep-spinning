@@ -60,6 +60,31 @@ body {
 #hero-image {
     width: 100%;
 }
+
+/* intro text section */
+
+#intro-text div {
+    background-color: #d7f9d3;
+    width: 25%;
+    height: 250px;
+    float: right;
+    border: 2px solid #fafafa;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.8;  
+}
+
+#intro-text p {
+    font-size: large;
+}
+
+#intro-text h2 {
+    text-decoration-line: underline;
+    text-decoration-color: #192435;
+}
+
+
+
   
 /* membership options inspiration and guidelines taken from love running 
     meetup times foreground module */
