@@ -66,12 +66,12 @@ body {
 #intro-text div {
     background-color: #d7f9d3;
     width: 25%;
-    height: 250px;
+    height: 300px;
     float: right;
     border: 2px solid #fafafa;
     box-sizing: border-box;
     text-align: center;
-    line-height: 1.8;  
+    line-height: 1.8; 
 }
 
 #intro-text p {
@@ -81,6 +81,11 @@ body {
 #intro-text h2 {
     text-decoration-line: underline;
     text-decoration-color: #192435;
+}
+
+#intro-text i {
+    font-size: small;
+    text-transform: lowercase;
 }
 
 /* membership options inspiration and guidelines taken from love running 
@@ -235,33 +240,51 @@ footer {
     width: 100%;
     background-color: #192435;
     color: #d7f9d3;
-    text-align: center;
     height: 80px;
 }
 
 footer > p {
-    font-size: 120%;
+    font-size: 100%;
     font-weight: lighter;
     float: left;
+    clear: both;
     padding: 30px 0 80px 50px;
+    line-height: 1.5;
 }
 
 footer > a {
     font-size: 200%;
     float: right;
-    padding: 30px 50px 80px 0;
+    padding: 50px 50px 80px 0;
     color: #d7f9d3;
 }
 
-.contact-us > li {
-    display: inline;
-    font-size: 120%;
+
+/* Media queries */
+
+/* for screens size from 1150px wide and down */
+@media screen and (max-width: 1150px) {
+    
+    #intro-text div {
+        width: 25%;
+        height: 500px;
+        padding: 0;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 50px;
+        font-size: 100%;
+    }
+
+    footer {
+        height: 125px;
+    }
+
+    
+    
 }
 
-.contact-us i {
-    font-size: 60%;
-}
-
-.contact-us {
-    padding: 30px 0 80px 0;
-}
