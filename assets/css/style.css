@@ -14,7 +14,8 @@ body {
 
 /* header styling icluding logo and nav bar */
 
-#logo, #menu {
+#logo,
+#menu {
     font-family: Merriweather, sans-serif;
     color: #6861F2;
     text-decoration: none;
@@ -33,7 +34,7 @@ body {
 #menu {
     font-size: 150%;
     text-transform: capitalize;
-    word-spacing: 5px;  
+    word-spacing: 5px;
 }
 
 #menu li {
@@ -47,8 +48,9 @@ body {
     color: #6861F2;
     text-transform: uppercase;
 }
+
 #menu a:hover {
-    color: rgb(104,97,242, 0.8)
+    color: rgb(104, 97, 242, 0.8)
 }
 
 .active {
@@ -71,7 +73,7 @@ body {
     border: 2px solid #fafafa;
     box-sizing: border-box;
     text-align: center;
-    line-height: 1.8; 
+    line-height: 1.8;
     padding: 0;
 }
 
@@ -122,6 +124,7 @@ body {
     font-size: 30px;
     text-transform: uppercase;
 }
+
 /* timetable styling */
 
 table {
@@ -208,7 +211,7 @@ select {
     border-radius: 2px;
     background-color: #c4c2ff;
     margin: 5px 0 10px 0;
-  }
+}
 
 .signup-button {
     margin-top: 20px;
@@ -230,38 +233,52 @@ select {
 /* footer */
 
 footer {
-    
+
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #192435;
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.social a {
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
+    line-height: 60px;
+}
+
+footer ul {
+    margin: 0 5px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer ul i {
     color: #d7f9d3;
-    height: 100px;
 }
 
-footer > p {
-    font-size: 100%;
-    font-weight: lighter;
-    float: left;
-    clear: both;
-    padding: 10px 0 80px 50px;
-    line-height: 1.5;
-}
-
-footer > a {
-    font-size: 200%;
-    float: right;
-    padding: 40px 50px 80px 0;
+footer ul li {
+    display: inline-block;
+    padding: 0 15px;
     color: #d7f9d3;
+    margin-bottom: 5px;
 }
-
 
 /* Media queries */
 
 /* for screens size from 1150px wide and down */
 @media screen and (max-width: 1150px) {
-    
+
     #intro-text div {
         height: 500px;
         padding: 0;
@@ -284,32 +301,30 @@ footer > a {
 /* for screens size from 983px wide and down */
 @media screen and (max-width: 983px) {
 
-    #membership > div {
+    #membership>div {
         width: 100%;
-        clear: both;        
+        clear: both;
         height: 150px;
         padding: 0;
     }
 
-    #membership h2, #membership h3 {
+    #membership h2,
+    #membership h3 {
         font-size: 100%;
     }
 }
 
 /* for screens size from 832px in height and down */
 @media screen and (max-height:832px) {
-        #intro-text div {
-            height: 400px;
-        }
+    #intro-text div {
+        height: 400px;
+    }
 
-        table {
-            margin-top: 0;
-        }
+    table {
+        margin-top: 0;
+    }
 
-        caption {
-            font-size: 120%;
-        }
+    caption {
+        font-size: 120%;
+    }
 }
-    
-
-
