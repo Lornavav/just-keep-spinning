@@ -65,25 +65,28 @@ body {
 
 /* introduction text */
 
+
 #intro-text div {
     background-color: #d7f9d3;
+    color: #192435;
     width: 25%;
     height: 300px;
-    float: right;
-    border: 2px solid #fafafa;
-    box-sizing: border-box;
-    text-align: center;
-    line-height: 1.8;
+    float: left;
     padding: 0;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;  
 }
 
 #intro-text p {
     font-size: large;
+    line-height: 1.8;
 }
 
 #intro-text h2 {
     text-decoration-line: underline;
     text-decoration-color: #192435;
+    line-height: 1.8;
 }
 
 
@@ -276,13 +279,8 @@ footer ul li {
 
 /* Media queries */
 
-/* for screens size from 1150px wide and down */
-@media screen and (max-width: 1150px) {
-
-    #intro-text div {
-        height: 500px;
-        padding: 0;
-    }
+/* for screens size from 1155px wide and down */
+@media screen and (max-width: 1155px) {
 
     #menu {
         clear: left;
@@ -291,6 +289,10 @@ footer ul li {
         margin-bottom: 20px;
         line-height: 50px;
         font-size: 100%;
+    }
+
+    #intro-text div {
+        width: 50%;
     }
 
     thead {
@@ -345,13 +347,6 @@ footer ul li {
 /* for screens size from 983px wide and down */
 @media screen and (max-width: 983px) {
 
-    #membership>div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-
     #membership h2,
     #membership h3 {
         font-size: 100%;
@@ -360,10 +355,7 @@ footer ul li {
 
 /* for screens size from 832px in height and down */
 @media screen and (max-height:832px) {
-    #intro-text div {
-        height: 400px;
-    }
-
+   
     table {
         margin-top: 0;
     }
