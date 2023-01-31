@@ -24,7 +24,7 @@ body {
 }
 
 #logo {
-    font-size: 240%;
+    font-size: 220%;
     text-transform: uppercase;
     float: left;
     margin-left: 20px;
@@ -32,7 +32,7 @@ body {
 }
 
 #menu {
-    font-size: 150%;
+    font-size: 120%;
     text-transform: capitalize;
     word-spacing: 5px;
 }
@@ -125,7 +125,7 @@ body {
     text-transform: uppercase;
 }
 
-/* timetable styling */
+/* class times styling */
 
 table {
     border: #192435 3px solid;
@@ -293,8 +293,52 @@ footer ul li {
         font-size: 100%;
     }
 
-    table {
-        margin-top: 0;
+    thead {
+        display: none;
+    }
+
+    td {
+        display: block;
+    }
+
+    td:first-child {
+        background-color: #6861F2;
+        color: #fff;
+        text-align: center;
+    }
+
+    td:nth-child(2)::before {
+        content: "06:00";
+    }
+
+    td:nth-child(3)::before {
+        content: "07:00";
+    }
+
+    td:nth-child(4)::before {
+        content: "09:00";
+    }
+
+    td:nth-child(5)::before {
+        content: "17:00";
+    }
+
+    td:nth-child(6)::before {
+        content: "18:00";
+    }
+
+    td:nth-child(7)::before {
+        content: "19:00";
+    }
+
+    td {
+        text-align: right;
+    }
+
+    td::before {
+        float: left;
+        margin-right: 30px;
+        font-weight: bold;
     }
 }
 
