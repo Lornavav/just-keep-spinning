@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Merriweather&display=swap');
 
+/* browser reset*/
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/* main properties for body*/
 body {
     font-family: Karla, sans-serif;
     font-weight: 400;
@@ -13,7 +15,6 @@ body {
 }
 
 /* header styling icluding logo and nav bar */
-
 #logo,
 #menu {
     font-family: Merriweather, sans-serif;
@@ -58,15 +59,12 @@ body {
 }
 
 /* hero image */
-
 #hero-image {
     width: 100%;
     height: auto;
 }
 
 /* introduction text */
-
-
 #intro-text div {
     background-color: #d7f9d3;
     color: #192435;
@@ -76,7 +74,7 @@ body {
     padding: 5px;
     text-align: center;
     border: 2px solid white;
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
 
 #intro-text p {
@@ -90,10 +88,8 @@ body {
     line-height: 1.8;
 }
 
-
 /* membership options inspiration and guidelines taken from love running 
     meetup times foreground module */
-
 #membership {
     background-image: url(/assets/images/membership_image.jpg);
     background-repeat: no-repeat;
@@ -130,7 +126,6 @@ body {
 }
 
 /* class times styling */
-
 table {
     border: #192435 3px solid;
     width: 50%;
@@ -168,7 +163,6 @@ caption {
 }
 
 /* free trial sign up form. Most of the stylying is taken from the love running sign up form challenge 2 */
-
 .form-section {
     clear: left;
     background: url('../images/free-trial_background.jpg');
@@ -235,7 +229,6 @@ select {
 }
 
 /* footer */
-
 footer {
     position: fixed;
     bottom: 0;
@@ -277,10 +270,8 @@ footer ul li {
 }
 
 /* Media queries */
-
 /* for screens size from 1155px wide and down */
 @media screen and (max-width: 1155px) {
-
     #menu {
         clear: left;
         float: left;
@@ -363,7 +354,6 @@ footer ul li {
 
 /* for screens size from 399px wide and down */
 @media screen and (max-width: 399px) {
-
     #logo {
         font-size: 125%;
         padding: 0 50px;
@@ -382,5 +372,5 @@ footer ul li {
 
     .form-section {
         background-color: #c4c2ff;
-    } 
+    }
 }
