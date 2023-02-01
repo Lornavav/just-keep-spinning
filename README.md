@@ -2,7 +2,7 @@
 
 Just Keep Spinning is a website promoting a Dublin based spin studio. This website is aimed at anyone that is over the age of 16 and is keen to keep fit improve their cardio fitness while having some fun. Just keep spinning offers a variety of membership options, one to suit everybody which potential members can view on the website. Potential members will have the opportunity to sign up for a free trial on the website, selecting a day & time that suits them best. Potential members will be able to view the timetable to make sure there is a class available at a time that suits them best.
 
-![](documentation/images/just_keep_spinning_mockup.PNG)
+![](documentation/images/just_keep_spinning_mockup.png)
 
 Link to published site: https://lornavav.github.io/just-keep-spinning/
 
@@ -31,28 +31,28 @@ Link to published site: https://lornavav.github.io/just-keep-spinning/
     * The navigation bar features on all three pages, it includes a logo which links back to the home page when clicks. There are then three links one for the home page, the membership page and the free trial page.
     
 
-    ![](documentation/images/nav_bar.PNG)
+    ![](documentation/images/nav_bar.png)
 
 * Hero Image
 
     * The hero image is a high quality image that responds well on all devices. There is an alt attribute attached for screen readers.
 
 
-    ![](documentation/images/hero_image_documentation.PNG)
+    ![](documentation/images/hero_image_documentation.png)
 
 * Who We Are, Our Mission, What to Expect & Where to find us
 
     * This section provides a brief overview of our mission, what our members can expect from a class. We provde details on where we are located and a small bit about the founders.
 
 
-    ![](documentation/images/informational_text_main_page.PNG)
+    ![](documentation/images/informational_text_main_page.png)
 
 * The Footer
 
     *   The footer is a fixed footer which appears on all 3 pages. It contains links to social channels. It also contains contact information and a copyright notice.
 
 
-    ![](documentation/images/footer.PNG)
+    ![](documentation/images/footer.png)
 
 * Membership Prices 
 
