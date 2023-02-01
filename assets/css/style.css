@@ -171,7 +171,7 @@ caption {
 
 .form-section {
     clear: left;
-    background: url(/assets/Images/free-trial_background.jpg);
+    background: url('../Images/free-trial_background.jpg');
     background-color: #c4c2ff;
     background-size: cover;
     background-position: center;
