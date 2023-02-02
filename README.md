@@ -168,6 +168,7 @@ See updated version for page 3 after I decided to include a Where to find us sec
 * Referenced [W3 Schools](https://www.w3schools.com/html/html_form_elements.asp) for help with the select options of the free trial forms
 * ![Future Coders](How to Create Simple Responsive Footer Design using HTML and CSS | Future Coders (futurecodersweb.com)) article and video used to help make the footer responsive
 * A video from [Ryan Web Tech](https://www.youtube.com/watch?v=J_sy1EuruZ0) helpded me make the class times table responsive
+* Membership pricing divs with background images concept taken from Love Running times section
 
 ## Media
 * All images used on the website were taken from [Shutterstockshutter](https://www.shutterstock.com/)
