@@ -149,7 +149,7 @@ See updated version for page 3 after I decided to include a Where to find us sec
 * An embeded google map
 * Videos of spin classes from the studio
 
-## Testing
+### Testing
 
 ## Validator Testing
 
@@ -161,11 +161,11 @@ See updated version for page 3 after I decided to include a Where to find us sec
 
 ## Content
     
-* Website and concept ideas taken from ![Spin and Go](https://spinandgo.ie/)
+* Website and concept ideas taken from [Spin and Go](https://spinandgo.ie/)
 * Colour scheme taken from [Pipedrive](https://www.pipedrive.com/) 
 * Code for social media footer icons and aria labels taken from the CI Kove Running module
 * Referenced the Love Running sign up form challeneg for styling on the free trial form
-* Referenced ![W3 Schools](https://www.w3schools.com/html/html_form_elements.asp) for help with the select options of the free trial forms
+* Referenced [W3 Schools](https://www.w3schools.com/html/html_form_elements.asp) for help with the select options of the free trial forms
 * ![Future Coders](How to Create Simple Responsive Footer Design using HTML and CSS | Future Coders (futurecodersweb.com)) article and video used to help make the footer responsive
 * A video from [Ryan Web Tech](https://www.youtube.com/watch?v=J_sy1EuruZ0) helpded me make the class times table responsive
 
