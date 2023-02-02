@@ -293,6 +293,7 @@ footer ul li {
 
     table {
         margin-top: 0;
+        width: 100%;
     }
 
     caption {
@@ -369,8 +370,19 @@ footer ul li {
     .active {
         border-bottom: .5px solid #192435;
     }
+}
 
-    .form-section {
-        background-color: #c4c2ff;
+/* for screens size from 820px high and down */
+@media screen and (max-height: 820px) {
+
+    table {
+        margin-top: 0;
+        margin-bottom: 20px;
     }
+
+    footer {
+        position: static;
+    }
+
+
 }
