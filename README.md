@@ -74,11 +74,11 @@ As a user:
 
 ### Wireframes
 
-See inital wireframe which was created using [Excalidraw](https://excalidraw.com/) 
+See inital wireframe which were created using [Excalidraw](https://excalidraw.com/) 
 
 ![](documentation/images/inital_wireframes.png)
 
-See updaed version for page 2 after i decided it was best to include a timetable of classes rather than the FAQ section.
+See updated version for page 2 after i decided it was best to include a timetable of classes rather than the FAQ section.
 
 ![](documentation/images/timetable_wireframe.png)
 
@@ -90,7 +90,7 @@ See updated version for page 3 after I decided to include a Where to find us sec
 
 *   For design I had a look around some websites that I know have a nice interface and are easy to navigate. I took a fancy to [Pipedrive](https://www.pipedrive.com/) and their colour scheme so I borrowed their hex values.
 
-* For the font I took a look around 
+* For the font I took a [fontpair](https://www.fontpair.co/all) and they had some styles paired and I liked the look of Karla & Merriweather.
 
 ## Features 
 
@@ -119,7 +119,7 @@ See updated version for page 3 after I decided to include a Where to find us sec
 
 * The Footer
 
-    *   The footer is a fixed footer which appears on all 3 pages. It contains links to social channels. It also contains contact information and a copyright notice.
+    *   The footer is a fixed footer which appears on all 3 pages. It contains links to social channels. When a social media icon is clicked it will launch the website in a new tab It also contains contact information and a copyright notice.
 
 
     ![](documentation/images/footer.png)
@@ -130,26 +130,49 @@ See updated version for page 3 after I decided to include a Where to find us sec
 
     ![](documentation/images/membership_pricing.jpg)
 
-* Timetable 
+* Class Times 
 
-    *
+    * They table provides potential members with all the class types and times on offer. 
+
+    ![](documentation/images/class_times.png)
 
 * Free Trial sign up form
 
-    *
+    *   This forms allows potential members to sign up for a free trail by entering their name and email address and selecting a day and time thats suits them best by using a select box.
 
-* Contact Us
-
-    *
-
-* Where to Find Us
-
-    *
+    ![](documentation/images/free_trial_form.png)
 
 ### Future Features
 
 * An online booking system for members
 * The option for members to purchase memberships on the website
+* An embeded google map
+* Videos of spin classes from the studio
+
+## Testing
+
+## Validator Testing
+
+## Unfixed Bugs
+
+### Deployment
+
+### Credits
+
+## Content
+    
+* Website and concept ideas taken from ![Spin and Go](https://spinandgo.ie/)
+* Colour scheme taken from [Pipedrive](https://www.pipedrive.com/) 
+* Code for social media footer icons and aria labels taken from the CI Kove Running module
+* Referenced the Love Running sign up form challeneg for styling on the free trial form
+* Referenced ![W3 Schools](https://www.w3schools.com/html/html_form_elements.asp) for help with the select options of the free trial forms
+* ![Future Coders](How to Create Simple Responsive Footer Design using HTML and CSS | Future Coders (futurecodersweb.com)) article and video used to help make the footer responsive
+* A video from [Ryan Web Tech](https://www.youtube.com/watch?v=J_sy1EuruZ0) helpded me make the class times table responsive
+
+## Media
+* All images used on the website were taken from [Shutterstockshutter](https://www.shutterstock.com/)
+* Social media icons in footer and icon on free trial form taken from [Font Awesome](https://fontawesome.com/)
+
 
 
 
