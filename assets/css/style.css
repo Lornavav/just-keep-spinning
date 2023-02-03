@@ -91,7 +91,7 @@ body {
 /* membership options inspiration and guidelines taken from love running 
     meetup times foreground module */
 #membership {
-    background-image: url(/assets/images/membership_image.jpg);
+    background-image: url('../images/membership_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
