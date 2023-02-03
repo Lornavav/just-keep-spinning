@@ -383,6 +383,33 @@ footer ul li {
     footer {
         position: static;
     }
+}
 
+/* for samsung galaxy S8+*/
+@media screen and (device-width: 360px) 
+and (device-height: 740px) {
+    
+    #logo {
+        text-align: center;
+        font-size: 100%;
+    }
 
+    #menu {
+        font-size: 60%;
+        text-align: center;
+    }
+
+}
+
+/* for samsung galaxy S20 ultra */
+@media screen and (device-width: 412px) 
+and (device-height: 915px) {
+
+    #logo {
+        font-size: 120%;
+    }
+
+    #menu {
+        font-size: 80%;     
+    }   
 }
