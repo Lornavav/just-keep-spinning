@@ -152,10 +152,36 @@ See updated version for page 3 after I decided to include a Where to find us sec
 ### Testing
 
 ## Validator Testing
+*   No HTML errors were found when validating through [W3C HTML Validator](https://validator.w3.org/#validate_by_uri)
 
-## Unfixed Bugs
+![](documentation/images/html_checker_index_page.png)
+![](documentation/images/html_checker_membership_page.png)
+![](documentation/images/html_checker_free_trial_page.png)
+
+* No CSS errors were found when passing validating through [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/)
+
+![](documentation/images/jigsaw_index_page.png)
+![](documentation/images/jigsaw_membership_page.png)
+![](documentation/images/jigsaw_free_trial_page.png)
+
+* A high score was obtained through the lighthouse report from dev tools, showing that the website has good accessibility and contrast
+
+![](documentation/images/Lighthouse_report.png)
+
+
+## Bugs
+* I encountered some bugs along the way, I changed design scope and removed any code that wasn't working or I couldnt solve.
+    * I wanted to add more text to the footer with social media icons which red 'Join our community' but I couldnt get it to postion correctly or be responsive.
+    * I initally used check boxes on my form for choosing the sate and time but the user was able to check all options and I couldnt figure out how to stop this.
+    * I then used radio buttons in my form and again the user was able to check all options this was because I forgot to add the name attribute to each option. I then couldnt style the label and buttons nicely so I ended up using the select box which looked better.
+
+* There are no known unfixed bugs.
 
 ### Deployment
+
+* To deploy the webiste I followed the following steps
+    * I logged into [GitHub](https://github.com/)
+    * From my repository I selected 
 
 ### Credits
 
